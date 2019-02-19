@@ -1,0 +1,9 @@
+# virtualenv
+app/.venv
+app/.cache
+
+# idea
+.idea
+
+# jupyter
+app/notebooks/.ipynb_checkpoints

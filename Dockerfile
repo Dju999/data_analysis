@@ -4,7 +4,8 @@ FROM ubuntu:18.04
 # запуск
 # сборка pipenv:    docker run --volume $(pwd)/app:/www/app -it --rm ds_docker:latest pipenv
 # подключение в sh: docker run --volume $(pwd)/app:/www/app -it --rm ds_docker:latest bash
-# запуск JUpyter:   docker run --volume $(pwd)/app:/www/app -p 8889:8888 -it --rm ds_docker:latest jupyter
+# запуск Jupyter:   docker run --volume $(pwd)/app:/www/app -p 8889:8888 -it --rm ds_docker:latest jupyter
+# установка openpyxl: pipenv install hg+https://bitbucket.org/openpyxl/openpyxl@2.5#egg=openpyxl
 
 RUN apt-get update && apt-get install -y curl python3-pip libatlas-base-dev libhdf5-dev python3.6 python3.6-dev \
     libpcre3-dev mercurial

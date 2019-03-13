@@ -12,7 +12,6 @@ jinja2 = "==2.10"
 werkzeug = "==0.14.1"
 click = "==7.0"
 flask = "==1.0.2"
-flask-caching = "==1.4.0"
 numpy = "==1.16.0"
 requests = "==2.13.0"
 six = "==1.12.0"
@@ -23,9 +22,10 @@ lxml = "==4.0.0"
 pytz = "==2018.9"
 python-dateutil = "==2.8.0"
 pandas = "==0.21"
-matplotlib = "==3.0.2"
-openpyxl = {hg = "https://bitbucket.org/openpyxl/openpyxl",ref = "2.5"}
 notebook = "==5.7.0"
+statsmodels = "==0.9.0"
+matplotlib = "==3.0"
+openpyxl = {hg = "https://bitbucket.org/openpyxl/openpyxl",ref = "2.5"}
 
 [requires]
 python_version = "3.6"
